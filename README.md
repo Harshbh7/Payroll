@@ -6,7 +6,6 @@
 
 ## 📌 Features
 - 🛍 **Billing System:** Generate bills for customer purchases.
-- 📊 **Sales Report:** View and analyze sales performance.
 - 📦 **Product Management:** Add, update, and delete products.
 - 👥 **Customer & User Management:** Maintain records of customers.
 - 📜 **No Authentication:** Designed for a single shopkeeper without login credentials.
@@ -27,9 +26,6 @@
 
 ### 🔹 Billing Page
 ![Billing](assets/Images/Screenshots/Billing.png)
-
-### 🔹 Sales Report
-![Sales Report](assets/Images/Screenshots/sales_report.png)
 
 ### 🔹 Add User
 ![Add User](assets/Images/Screenshots/Add_user.png)
@@ -81,4 +77,51 @@
 📧 Email: [your-email@example.com](mailto:your-email@example.com)
 
 🌟 **Like the project? Give it a star ⭐ on GitHub!**
+
+## 🗄 Database Schema
+### 1. Creating the Database
+```sql
+CREATE DATABASE payroll_db;
+USE payroll_db;
+```
+
+### 2. Creating Tables
+#### `users` Table
+```sql
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    mobile_no VARCHAR(15),
+    email VARCHAR(255) UNIQUE,
+    address TEXT,
+    pincode VARCHAR(10),
+    city VARCHAR(100),
+    state VARCHAR(100)
+);
+```
+
+#### `products` Table
+```sql
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    productName VARCHAR(255) NOT NULL,
+    productDescription TEXT,
+    productAmount DECIMAL(10,2) NOT NULL
+);
+```
+
+#### `orders` Table
+```sql
+CREATE TABLE orders (
+    sr_no INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    user_name VARCHAR(255),
+    user_mobile VARCHAR(15),
+    date_of_purchasing DATE,
+    time_of_purchasing TIME,
+    total_amount DECIMAL(10,2),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+```
 
