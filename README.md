@@ -1,10 +1,11 @@
 # Payroll System
 
-![Payroll Logo](assets/Images/Payroll_bill2.png)
+
 
 > **A simple billing and sales management system for a shopkeeper to manage transactions efficiently.**
 
 ## 📌 Features
+
 - 🛍 **Billing System:** Generate bills for customer purchases.
 - 📦 **Product Management:** Add, update, and delete products.
 - 👥 **Customer & User Management:** Maintain records of customers.
@@ -12,6 +13,7 @@
 - 🎨 **User-friendly UI:** Built with Bootstrap and SweetAlert for a seamless experience.
 
 ## 🛠️ Technologies Used
+
 - **PHP** - Backend processing
 - **MySQL** - Database management
 - **Bootstrap** - Responsive UI design
@@ -21,31 +23,41 @@
 - **POST API** - Data handling
 
 ## 📸 Screenshots
+
 ### 🔹 Dashboard
-![Dashboard](assets/Images/Screenshots/Dashboard.png)
+
+
 
 ### 🔹 Billing Page
-![Billing](assets/Images/Screenshots/Billing.png)
+
+
 
 ### 🔹 Add User
-![Add User](assets/Images/Screenshots/Add_user.png)
+
+
 
 ### 🔹 Add Products
-![Add Products](assets/Images/Screenshots/Add_product.png)
+
+
 
 ### 🔹 Product List
-![Product List](assets/Images/Screenshots/Product_list.png)
+
+
 
 ### 🔹 Users/Customer List
-![Customer List](assets/Images/Screenshots/User.png)
+
+
 
 ### 🔹 About Page
-![About](assets/Images/Screenshots/About.png)
+
+
 
 ### 🔹 Contact Page
-![Contact](assets/Images/Screenshots/Contact.png)
+
+
 
 ## 🚀 Installation & Setup
+
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/Harshbh7/payroll.git
@@ -67,26 +79,19 @@
    - Run a local server using XAMPP/WAMP
    - Open the browser and go to: `http://localhost/payroll`
 
-## 🔮 Future Enhancements
-- ✅ **User Authentication** for multi-user access
-- 📧 **Email Notifications** for billing
-- 📈 **Advanced Reports** with charts & analytics
-- 💳 **Payment Gateway Integration**
-
-## 📞 Contact
-📧 Email: [your-email@example.com](mailto:your-email@example.com)
-
-🌟 **Like the project? Give it a star ⭐ on GitHub!**
-
 ## 🗄 Database Schema
+
 ### 1. Creating the Database
+
 ```sql
 CREATE DATABASE payroll_db;
 USE payroll_db;
 ```
 
 ### 2. Creating Tables
+
 #### `users` Table
+
 ```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -102,6 +107,7 @@ CREATE TABLE users (
 ```
 
 #### `products` Table
+
 ```sql
 CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -112,6 +118,7 @@ CREATE TABLE products (
 ```
 
 #### `orders` Table
+
 ```sql
 CREATE TABLE orders (
     sr_no INT AUTO_INCREMENT PRIMARY KEY,
@@ -124,4 +131,17 @@ CREATE TABLE orders (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 ```
+
+## 🔮 Future Enhancements
+
+- ✅ **User Authentication** for multi-user access
+- 📧 **Email Notifications** for billing
+- 📈 **Advanced Reports** with charts & analytics
+- 💳 **Payment Gateway Integration**
+
+## 📞 Contact
+
+📧 Email: [your-email@example.com](mailto:your-email@example.com)
+
+🌟 **Like the project? Give it a star ⭐ on GitHub!**
 
