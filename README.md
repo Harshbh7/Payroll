@@ -1,6 +1,6 @@
 # Payroll System
 
-![Payroll Logo](assets/img/logo.png)
+![Payroll Logo](assets/Images/Payroll_bill2.png)
 
 > **A simple billing and sales management system for a shopkeeper to manage transactions efficiently.**
 
