@@ -23,31 +23,31 @@
 
 ## 📸 Screenshots
 ### 🔹 Dashboard
-![Dashboard](assets/img/screenshot/Dashboard.png)
+![Dashboard](assets/Images/Screenshots/Dashboard.png)
 
 ### 🔹 Billing Page
-![Billing](assets/img/screenshot/Billing.png)
+![Billing](assets/Images/Screenshots/Billing.png)
 
 ### 🔹 Sales Report
-![Sales Report](assets/img/screenshot/sales_report.png)
+![Sales Report](assets/Images/Screenshots/sales_report.png)
 
 ### 🔹 Add User
-![Add User](assets/img/screenshot/Add_user.png)
+![Add User](assets/Images/Screenshots/Add_user.png)
 
 ### 🔹 Add Products
-![Add Products](assets/img/screenshot/Add_product.png)
+![Add Products](assets/Images/Screenshots/Add_product.png)
 
 ### 🔹 Product List
-![Product List](assets/img/screenshot/Product_list.png)
+![Product List](assets/Images/Screenshots/Product_list.png)
 
 ### 🔹 Users/Customer List
-![Customer List](assets/img/screenshot/User.png)
+![Customer List](assets/Images/Screenshots/User.png)
 
 ### 🔹 About Page
-![About](assets/img/screenshot/About.png)
+![About](assets/Images/Screenshots/About.png)
 
 ### 🔹 Contact Page
-![Contact](assets/img/screenshot/Contact.png)
+![Contact](assets/Images/Screenshots/Contact.png)
 
 ## 🚀 Installation & Setup
 1. **Clone the repository:**
