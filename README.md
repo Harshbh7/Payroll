@@ -23,31 +23,31 @@
 
 ## 📸 Screenshots
 ### 🔹 Dashboard
-![Dashboard](assets/img/screenshot/dashboard.png)
+![Dashboard](assets/img/screenshot/Dashboard.png)
 
 ### 🔹 Billing Page
-![Billing](assets/img/screenshot/billing.png)
+![Billing](assets/img/screenshot/Billing.png)
 
 ### 🔹 Sales Report
 ![Sales Report](assets/img/screenshot/sales_report.png)
 
 ### 🔹 Add User
-![Add User](assets/img/screenshot/add_user.png)
+![Add User](assets/img/screenshot/Add_user.png)
 
 ### 🔹 Add Products
-![Add Products](assets/img/screenshot/add_products.png)
+![Add Products](assets/img/screenshot/Add_product.png)
 
 ### 🔹 Product List
-![Product List](assets/img/screenshot/product_list.png)
+![Product List](assets/img/screenshot/Product_list.png)
 
 ### 🔹 Users/Customer List
-![Customer List](assets/img/screenshot/customer_list.png)
+![Customer List](assets/img/screenshot/User.png)
 
 ### 🔹 About Page
-![About](assets/img/screenshot/about.png)
+![About](assets/img/screenshot/About.png)
 
 ### 🔹 Contact Page
-![Contact](assets/img/screenshot/contact.png)
+![Contact](assets/img/screenshot/Contact.png)
 
 ## 🚀 Installation & Setup
 1. **Clone the repository:**
