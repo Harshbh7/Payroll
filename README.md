@@ -52,7 +52,7 @@
 ## 🚀 Installation & Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/payroll.git
+   git clone https://github.com/Harshbh7/payroll.git
    ```
 2. **Import the database:**
    - Open **phpMyAdmin**
